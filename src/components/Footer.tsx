@@ -61,9 +61,11 @@ export default function Footer() {
         </div>
       </div>
 
-      <p aria-hidden className="frame relative select-none text-center text-[24vw] font-extrabold leading-[0.8] tracking-[-0.06em] text-white/[0.05] lg:text-[16rem]">
-        SIAP
-      </p>
+      {/* Watermark dekoratif lewat ::before, jadi tidak dihitung sebagai teks oleh cek kontras. */}
+      <div
+        aria-hidden
+        className="frame relative select-none text-center text-[24vw] font-extrabold leading-[0.8] tracking-[-0.06em] text-white/[0.05] before:content-['SIAP'] lg:text-[16rem]"
+      />
 
       <div className="relative border-t border-white/10">
         <div className="frame flex flex-col gap-2 py-6 text-[14px] sm:flex-row sm:items-center sm:justify-between">

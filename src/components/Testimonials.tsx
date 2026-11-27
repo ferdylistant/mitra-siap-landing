@@ -29,7 +29,7 @@ export default function Testimonials() {
                 className="card relative flex h-full flex-col p-8 hover:shadow-lift"
               >
                 <Quote aria-hidden className="absolute right-7 top-7 text-brand-mist" size={44} />
-                <div className="flex gap-1 text-[#FAB005]" aria-label="5 dari 5 bintang">
+                <div role="img" className="flex gap-1 text-[#FAB005]" aria-label="5 dari 5 bintang">
                   {Array.from({ length: 5 }).map((_, k) => (
                     <Star key={k} size={18} fill="currentColor" strokeWidth={0} />
                   ))}

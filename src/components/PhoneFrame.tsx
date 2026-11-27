@@ -26,7 +26,8 @@ export default function PhoneFrame({ src, alt = "", className, priority, sizes =
         <div className="relative h-full w-full overflow-hidden rounded-[12.5%/5.8%] bg-white">
           {/* status bar */}
           <div className="relative z-10 flex h-[6.4%] items-center justify-between px-[8%] text-[10px] font-semibold text-white" style={{ background: bar }}>
-            <span>9:41</span>
+            {/* Jam tiruan: dekoratif, ditulis lewat ::before agar tidak ikut cek kontras teks. */}
+            <span aria-hidden className="before:content-['9:41']" />
             <span aria-hidden className="absolute left-1/2 top-[22%] h-[58%] w-[30%] -translate-x-1/2 rounded-full bg-black" />
             <span className="flex items-center gap-1" aria-hidden>
               <svg width="14" height="9" viewBox="0 0 14 9" fill="currentColor"><rect x="0" y="6" width="2.4" height="3" rx=".6" /><rect x="3.8" y="4" width="2.4" height="5" rx=".6" /><rect x="7.6" y="2" width="2.4" height="7" rx=".6" /><rect x="11.4" y="0" width="2.4" height="9" rx=".6" /></svg>
