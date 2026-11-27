@@ -81,7 +81,7 @@ export default function Hero() {
             transition={{ duration: 0.8, ease, delay: 0.48 }}
             className="mt-9 flex flex-col items-start gap-4"
           >
-            <a href={waLink("Halo, saya ingin menjadwalkan demo aplikasi absensi SIAP.")} target="_blank" rel="noopener" className="btn-white group w-full sm:w-auto">
+            <a href={waLink("Halo, saya ingin menjadwalkan demo aplikasi absensi SIAP.")} target="_blank" rel="nofollow noopener noreferrer" className="btn-white group w-full sm:w-auto">
               <CalendarClock size={18} />
               Jadwalkan demo gratis
               <ArrowRight size={18} className="transition-transform group-hover:translate-x-1" />

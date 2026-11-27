@@ -6,7 +6,7 @@ export default function FloatingWhatsapp() {
     <motion.a
       href={waLink()}
       target="_blank"
-      rel="noopener"
+      rel="nofollow noopener noreferrer"
       aria-label="Chat dengan tim SIAP via WhatsApp"
       initial={{ scale: 0, opacity: 0 }}
       animate={{ scale: 1, opacity: 1 }}

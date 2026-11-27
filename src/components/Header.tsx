@@ -62,7 +62,7 @@ export default function Header() {
             <a
               href={waLink("Halo, saya ingin menjadwalkan demo aplikasi absensi SIAP.")}
               target="_blank"
-              rel="noopener"
+              rel="nofollow noopener noreferrer"
               className={cn("ml-3 min-h-[44px] px-5", solid ? "btn-primary" : "btn-white")}
             >
               Jadwalkan demo
@@ -106,7 +106,7 @@ export default function Header() {
                   {item.label}
                 </motion.a>
               ))}
-              <a href={waLink("Halo, saya ingin menjadwalkan demo aplikasi absensi SIAP.")} target="_blank" rel="noopener" className="btn-primary mt-8 w-full">
+              <a href={waLink("Halo, saya ingin menjadwalkan demo aplikasi absensi SIAP.")} target="_blank" rel="nofollow noopener noreferrer" className="btn-primary mt-8 w-full">
                 Jadwalkan demo
               </a>
             </nav>

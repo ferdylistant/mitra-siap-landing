@@ -38,7 +38,7 @@ export default function Footer() {
           <h2 className="text-[15px] font-bold tracking-normal text-white">Kontak</h2>
           <ul className="mt-5 flex flex-col gap-4 text-[15px]">
             <li>
-              <a href={waLink()} target="_blank" rel="noopener" className="flex items-center gap-3 transition-colors hover:text-white">
+              <a href={waLink()} target="_blank" rel="nofollow noopener noreferrer" className="flex items-center gap-3 transition-colors hover:text-white">
                 <Phone size={17} className="shrink-0 text-brand-bright" /> {c.phone}
               </a>
             </li>

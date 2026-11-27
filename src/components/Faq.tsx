@@ -17,7 +17,7 @@ export default function Faq() {
             Pertanyaan yang <span className="text-gradient-brand">sering diajukan</span>
           </h2>
           <p className="lead mt-5 max-w-[26rem]">Belum menemukan jawabannya? Tim kami siap menjawab langsung.</p>
-          <a href={waLink("Halo, saya punya pertanyaan tentang aplikasi absensi SIAP.")} target="_blank" rel="noopener" className="btn-primary mt-8">
+          <a href={waLink("Halo, saya punya pertanyaan tentang aplikasi absensi SIAP.")} target="_blank" rel="nofollow noopener noreferrer" className="btn-primary mt-8">
             <MessageCircle size={18} /> Tanya lewat WhatsApp
           </a>
         </Reveal>

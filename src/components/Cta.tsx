@@ -15,7 +15,7 @@ export default function Cta() {
 
   const onSubmit = (e: FormEvent) => {
     e.preventDefault();
-    window.open(waLink(message()), "_blank", "noopener");
+    window.open(waLink(message()), "_blank", "noopener,noreferrer");
   };
 
   return (
@@ -31,7 +31,7 @@ export default function Cta() {
                 Tulis nama perusahaan Anda, lalu kami lanjutkan lewat WhatsApp untuk jadwal demo dan pendampingan implementasi gratis.
               </p>
 
-              <form action={`https://wa.me/${site.company.whatsapp}`} method="get" target="_blank" onSubmit={onSubmit} className="mt-9 flex max-w-[34rem] flex-col gap-3 rounded-[22px] bg-white/10 p-2 ring-1 ring-inset ring-white/20 backdrop-blur sm:flex-row">
+              <form action={`https://wa.me/${site.company.whatsapp}`} method="get" target="_blank" rel="nofollow noopener noreferrer" onSubmit={onSubmit} className="mt-9 flex max-w-[34rem] flex-col gap-3 rounded-[22px] bg-white/10 p-2 ring-1 ring-inset ring-white/20 backdrop-blur sm:flex-row">
                 <label htmlFor="cta-perusahaan" className="sr-only">
                   Nama perusahaan
                 </label>

@@ -36,7 +36,7 @@ export default function StoreButtons({ className, tone = "ghost", compact }: Pro
           key={s.name}
           href={s.href}
           target="_blank"
-          rel="noopener"
+          rel="nofollow noopener noreferrer"
           aria-label={s.label}
           className={cn(
             compact ? "group inline-flex h-[50px] items-center gap-2.5 rounded-xl px-3.5 text-left" : "group inline-flex h-[56px] min-w-[172px] flex-1 items-center gap-3 rounded-2xl px-4 text-left sm:flex-none",
