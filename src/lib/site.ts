@@ -5,7 +5,7 @@ export const site = {
   appName: "SIAP Andi Presensi",
   title: "SIAP — Aplikasi Absensi Karyawan Online di HP",
   description:
-    "SIAP adalah aplikasi absensi karyawan online di HP: clock-in & clock-out, cuti, izin, lembur, dan rekap kehadiran otomatis untuk perusahaan multi-cabang. Tanpa mesin fingerprint.",
+    "SIAP adalah aplikasi absensi karyawan online di HP: clock-in & clock-out, cuti, izin, lembur, dan rekap kehadiran otomatis untuk perusahaan multi-cabang.",
   keywords: [
     "aplikasi absensi karyawan",
     "aplikasi absensi online",
